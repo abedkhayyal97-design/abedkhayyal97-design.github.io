@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /tests/
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://abedkhayyal97-design.github.io/sitemap.xml

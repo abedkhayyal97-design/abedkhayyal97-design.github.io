@@ -10,8 +10,8 @@ HTML/CSS/JS خالص، بدون بناء أو اعتماديات. RTL، جوال
     node tests/run-tests.js          # اختبارات المنطق (زكاة/مواريث/هجري)
 
 ## قبل النشر
-1. استبدل `https://example.com` بنطاقك في كل الملفات:
-   `sed -i 's#https://example.com#https://YOURDOMAIN#g' *.html sitemap.xml robots.txt`
+1. استبدل `https://abedkhayyal97-design.github.io` بنطاقك في كل الملفات:
+   `sed -i 's#https://abedkhayyal97-design.github.io#https://YOURDOMAIN#g' *.html sitemap.xml robots.txt`
 2. عدّل `js/config.js`: `BINANCE_PAY_ID`, `ADSENSE_ID` (يُحمَّل سكربت AdSense تلقائياً فقط عند وضع معرّف صالح `ca-pub-…`).
 3. مساحات الإعلان: عناصر `div.ad-slot` (top/middle/bottom) مخفية في الإنتاج وتظهر على localhost أو `?ads=1`. بعد موافقة AdSense ضع وحدة `<ins class="adsbygoogle">` داخلها.
 4. زر «تقرير PDF» مجرّد placeholder يعرض رسالة؛ لا يوجد ربط دفع.
